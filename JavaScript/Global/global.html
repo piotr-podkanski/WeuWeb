@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>YOo</h1>
+
+
+
+
+
+    <script>
+        
+        var globalVariable = "detta är en global variabel"
+
+
+
+        function displayGlobalVariable()
+        {
+            console.log(globalVariable);
+        }
+
+        displayGlobalVariable()
+
+        function displayLocalVariable()
+        {
+            let localVariable = "Detta är en local variabel";
+            console.log(localVariable);
+
+        }
+        displayLocalVariable()
+
+
+        function block()
+        {
+            if (globalVariable == "Detta är en global variabel")
+            {
+                var blockVariable = "Detta är en block variabel";
+                
+
+            }
+            console.log(blockVariable);
+
+        }
+        
+        var globalNum = 10
+        
+        function multplyBy2(number)
+        {
+            
+            let localNum = number+number
+            alert(globalNum)
+            alert(localNum)
+        }
+
+        multplyBy2(globalNum)
+
+        
+        alert(globalNum)
+        alert(localNum)
+
+
+
+    </script>
+</body>
+</html>

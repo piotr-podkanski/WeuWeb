@@ -1,0 +1,50 @@
+body {
+    background-image: url("image/SchoolAtNight.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0px, 0px;
+
+}
+
+.backButton {
+    display: block;
+    background-color: rgb(36, 37, 48, 0.7) ;
+    background-image: url("image/Arrow.png");
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+}
+
+a {
+    color: rgb(88, 63, 128);
+}
+
+.divBlockAligment {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -25px;
+
+    color: white;
+}
+
+
+
+
+.divBlock1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(36, 37, 48, 0.9);
+    width: 440px;
+    height: 750px;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 20px;
+
+    
+
+}

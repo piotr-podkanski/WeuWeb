@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://images-bonnier.imgix.net/files/ill/production/2021/10/04105714/moln.jpg?w=2618&q=60fit=crop&crop=focalpoint&fp-x=0.5&fp-y=0.5&fit=crop&crop=focalpoint);
+    size: fill;
+    background-position: center;
+}
+h1 {
+    color: purple;
+    margin-left: 70px;
+}
+
+#green{
+    color: green;
+}
+
+#p1 {
+    background-color: yellow;
+    display: inline;
+}
+
+#p2 {
+    background-color: pink;
+    display: inline;
+}
+
+#div1 {
+    background-color: yellow;
+    display: block;
+    width: 400px;
+    height: 120px;
+}
+#p3 {
+    background-color: pink;
+    display: block;
+    height: 50px;
+    width: 100px;
+
+}
+
+#p4 {
+    background-color: pink;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+}

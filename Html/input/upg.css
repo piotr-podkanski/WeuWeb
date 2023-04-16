@@ -1,0 +1,15 @@
+.nameQuestions {
+    border: 2px black solid;
+    width: 500px;
+    
+}
+
+.otherQuestions {
+    border: 2px purple solid;
+    width: 500px;
+    
+}
+
+.commentBox {
+    height: 50  px;
+}

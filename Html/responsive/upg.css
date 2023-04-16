@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+#heading{
+    font-size: 150px;
+}
+
+#subHeading{
+    font-size: 80px;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background-color: rgb(25, 233, 98);
+        color: white;
+    }
+
+    #heading{
+        font-size: 95px;
+    }
+
+    #subHeading{
+        font-size: 66px;
+    }
+        
+}
+
+@media screen and (max-width:950px) {
+    body {
+        background-color: rgb(238, 255, 0);
+        color: rgb(0, 0, 0);
+    }
+
+    #heading{
+        font-size: 10vw;
+    }
+
+    #subHeading{
+        font-size: 7vw;
+    }
+        
+}

@@ -1,0 +1,29 @@
+ #responsiveParagraph{
+
+        /* max width låter texten att altid anpassa sig till 80% av skärmens bredd  */
+    max-width: 80%;
+
+        /* margin flyttar på texten ifrån sidans sidor */
+    margin-left: 50px;
+    margin-top: 30px; 
+ }
+
+ #responsiveImage{
+
+    /* Medans width: 100% gör att bilden streker ut bilden över hela skärmen max-width låter den aldrig bli större än 100% av bilden. */
+    width: 10%;    
+    max-width: 100%;
+
+ }
+
+ #responsiveDiv{
+
+    background-color: green;
+    max-width: 100%;
+
+
+ }
+
+ #h1Responsive{
+    font-size: 10vw;
+ }

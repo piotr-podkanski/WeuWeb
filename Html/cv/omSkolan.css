@@ -1,0 +1,80 @@
+body {
+    background-image:url("image/Library.jpg");
+    background-size: cover;
+    background-repeat: no-repeat  ;
+}
+
+.invis {
+    opacity: 0%;
+}
+
+.backButton {
+    display: block;
+    background-color: rgb(36, 37, 48, 0.7);
+    background-image: url("image/Arrow.png");
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+}
+
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: rgb(36, 37, 48, 0.7);
+    width: 1100px;
+    height: 700px;
+
+    margin: -20px 0px 0px 200px;
+    padding: 20px 50px;
+
+    color: white;
+    font-size: 25px;
+
+}
+
+.loggaImage {
+    width: 500px;
+    height: 200px;
+    margin-left: 150px;
+    margin-bottom: -30px;
+    border-radius: 5px;
+}
+
+.skolaImage {
+    width: 450px;
+    height: 250px;
+
+    margin-left: 30px;
+
+}
+
+.minOmtycke {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.dinOmtycke {
+    resize: none;
+    background-color: rgb(36, 37, 48, 0.7);
+    color: white;
+    border: black 3px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.submitIt {
+    border: white solid 2px;
+    background-color: rgb(36, 37, 48, 0.7) ;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.lastImage {
+    width: 550px;
+    padding-left: 100px;
+}

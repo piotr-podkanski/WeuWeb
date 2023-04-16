@@ -1,0 +1,90 @@
+body { 
+    background-color: lightgray;
+}
+
+.redBox {
+
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+
+.blueBox {
+
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.greenBox {
+
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.purpBox {
+
+    background-color: purple;
+    height: 300px;
+    width: 300px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.footerbox {
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+
+}
+.footing {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: gray;
+    text-align: center;
+    top: 20px;
+    left: 40%;
+
+}
+
+
+.heading {
+    text-align: center;
+    position: relative;
+    top: 50px;
+
+
+}

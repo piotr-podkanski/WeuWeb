@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<button id="btn1" onclick= multi()>Multiplicera</button> <br>
+<button id="btn1" onclick= large()>Gemför tal</button> <br>
+<button id="btn1" onclick= temp()>Celsious till Farenheit</button> <br>
+<button id="btn1" onclick= namn()>Hälsning</button> <br>
+
+
+
+
+
+
+    <script>
+        function multi()
+        {
+           let firstNum = parseFloat(prompt("Vad är det första talet?"));
+           let secondNum = parseFloat(prompt("gånger?"));
+
+            let result = (firstNum * secondNum);
+            alert("Din lösning är " + result);
+            
+        }
+
+        function large()
+        {
+            let firstNum = parseFloat(prompt("Vilket tall ska du gemföra?"));
+            let secondNum = parseFloat(prompt("med vad?"));
+
+            if (firstNum < secondNum){
+                alert(secondNum + " är större")
+            }
+
+            if (firstNum > secondNum){
+                alert(firstNum + " är större")
+            }
+
+
+        }
+
+        function temp()
+        {
+            let celsious = parseFloat(prompt())
+            farenheit = (celsious * 9/5) + 32
+
+            alert(celsious + "C är " + farenheit)
+        }
+
+        function namn()
+        {
+            let firstName = prompt("vad heter du")
+
+            alert("hej " + firstName + " du är så skön, hoppas att du har det bra")
+        }
+    </script>   
+
+</body>
+</html>

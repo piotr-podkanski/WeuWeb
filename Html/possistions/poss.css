@@ -1,0 +1,34 @@
+body{
+    background-color: blue;
+}
+
+.greenBox {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    top:20px;
+    left: 30px;
+    
+    
+}
+
+.blackBox {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    
+}
+
+.redBox { 
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    top: 100px;
+
+    
+    
+
+}
