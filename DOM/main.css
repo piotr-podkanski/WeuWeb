@@ -1,0 +1,60 @@
+body {
+    /* Färgen på bakgrunden ska vara  just denna färgen*/
+    background-color: rgb(102, 102, 215);
+}
+  
+#picture{
+    /* Bilder ska alltid ha samma storlek */
+    width: 100px;
+}
+  
+    /* skapat en container för att kunna ha divven(div2) centrerat på skärmen */
+.container {
+    display: flex;
+    justify-content: center;
+
+
+}
+    /* style till div som innehåller alla knappar */
+.div2 {
+    /* Centrerar alla saker innut i i mitten av divven */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: bisque;
+    
+    /* Skapar en max och min width */
+    max-width: 80%;
+    min-width: 500px;
+
+    
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    
+  }
+  /* Alla knappar i div2 */
+  .div2 button {
+    /* en torlek som  */
+    width: 33%;
+    height: 100px;
+    max-width: 25%;
+    height: 100px;
+    margin: 10px 20px;
+    
+
+
+    background-color: aqua;
+    border-radius: 15px;
+
+    font-size: 25px;
+    color: white;
+  }
+  button:hover{
+    
+    background-color: blueviolet;
+
+  }
+  
