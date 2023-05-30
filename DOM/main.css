@@ -13,11 +13,16 @@ body {
     display: flex;
     justify-content: center;
 
+}
 
+#div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
 }
     /* style till div som innehåller alla knappar */
 .div2 {
-    /* Centrerar alla saker innut i i mitten av divven */
+    /* Centrerar alla saker innut i, i mitten av divven */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,6 +57,7 @@ body {
     font-size: 25px;
     color: white;
   }
+  /* ändrar färg när man är ovan på en knapp */
   button:hover{
     
     background-color: blueviolet;

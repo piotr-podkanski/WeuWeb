@@ -12,8 +12,11 @@
 <body>
     
 
-    <!-- En div för bilden och -->
+    <!-- En div för bilden och texten samt tid-->
     <div id="div1"> 
+        
+        <h1 id="header_text" style="display:none;"></h1>
+        <p id="time_text" style="display:none;"></p>      
         <img id="picture"src="king.png" alt="">    
     </div>
     <!-- Container för divven -->
@@ -21,28 +24,25 @@
         <!-- Div för knapparna -->
         <div class="div2">
             <!-- Layer 1 (Change Bg, Change Picture, Header) -->
-            <button>Change bg</button> 
-            <button> Change picture</button>
-            <button>Header</button>
+            <button onclick="change_bg()">Change bg</button> 
+            <button onclick="change_image()"> Change picture</button>
+            <button onclick="header()">Header</button>
             <!-- Layer 2 (Good Vibes, Hide Picture, Remove header) -->
-            <button>Good vibes</button> 
-            <button>Hide picture</button>
-            <button>Remove header</button>
+            <button onclick="good_vibes()">Good vibes</button> 
+            <button onclick="remove_image()">Hide picture</button>
+            <button onclick="remove_header()">Remove header</button>
             <!-- Layer 3(Time, Show picture, Show header) -->
-            <button>Change bg </button> 
-            <button> Change picture</button>
-            <button>Header</button>
+            <button onclick="time()">Time </button> 
+            <button onclick="show_image()">Show picture</button>
+            <button onclick="show_header()">Show Header</button>
 
         </div>
     </div>
-
-
+    <p id="last_msg" style="display:none;"> tack för att du använde mitt program</p>
+    
 
 
     <script>
-
-
-
 
     </script>
 </body>
